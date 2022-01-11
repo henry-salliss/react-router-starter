@@ -25,6 +25,12 @@ p {
   color: #042b5f;
 }
 
-h1 {
+li {
+  list-style-type: none;
+}
+
+h1,
+li,
+p {
   text-align: center;
 }

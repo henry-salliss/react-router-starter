@@ -7,7 +7,7 @@ const ProductDetail = () => {
   return (
     <div>
       <h1>Product Detail</h1>
-      {params.productID}
+      <p>{params.productID}</p>
     </div>
   );
 };
