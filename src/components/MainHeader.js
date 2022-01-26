@@ -6,12 +6,18 @@ const MainHeader = () => {
     <header className={styles.header}>
       <ul>
         <li>
-          <NavLink activeClassName={styles.active} to="/welcome">
+          <NavLink
+            className={(navData) => (navData.isActive ? styles.active : "")}
+            to="/welcome"
+          >
             welcome page
           </NavLink>
         </li>
         <li>
-          <NavLink activeClassName={styles.active} to="/products">
+          <NavLink
+            className={(navData) => (navData.isActive ? styles.active : "")}
+            to="/products"
+          >
             Products page
           </NavLink>
         </li>
